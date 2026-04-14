@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+.obsidian/
+.trash/
+.stversions/
+.git/
+*.log
+dist/
+main.js
+data.json

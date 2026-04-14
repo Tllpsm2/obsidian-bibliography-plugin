@@ -1,0 +1,11 @@
+{
+	"id": "obsidian-bibliography-plugin",
+	"name": "Obsidian Bibliographies",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Autocomplete and manage bibliographies directly from frontmatter and editor.",
+	"author": "Antigravity",
+	"authorUrl": "https://obsidian.md",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}

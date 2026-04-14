@@ -1,0 +1,49 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+.bibliography-add-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.bibliography-add-container input {
+    flex-grow: 1;
+}
+
+.bibliography-button {
+    cursor: pointer;
+}
+
+.bibliography-button-delete {
+    background-color: var(--interactive-hover);
+}
+
+.bibliography-list-container {
+    max-height: 300px;
+    overflow-y: auto;
+    border-top: 1px solid var(--background-modifier-border);
+    padding-top: 10px;
+}
+
+.bibliography-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.bibliography-item-input {
+    flex-grow: 1;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    color: var(--text-normal);
+}
